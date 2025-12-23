@@ -100,6 +100,21 @@ a{
     font-size: 1.563rem;
     color: #FFFFFF;
 }
+.poluchit_consul{
+    width: 301px;
+    height: 80px;
+    background-color: #fa002c;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 550;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.poluchit_consul:hover{
+    background-color: #bb3e55;
+}
 
 .help_na_etapah{
     background-image: url(../koreya/koreya_image/image2.png);
