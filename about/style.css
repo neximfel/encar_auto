@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+main{
+    background-color: #F4F6F8;
+}
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+nav{
+    position: relative;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: space-between;
+    z-index: 111;
+}
+nav a{
+    color: #FFFFFF;
+    font-weight: 500;
+}
+ul{
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.number_button{
+    width: 236px;
+    height: 68px;
+    color: #ffffff;
+    font-size: 1.125rem;
+    font-weight: 650;
+    cursor: pointer;
+    transition: 0.4 ease;
+    border-style: none;
+    border-radius: 8px;
+    background-color: #FA002C;
+}
+
+.avto_rinok{
+    background-image: url(../koreya/koreya_image/bg_o_nas.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 90vh;
+    position: relative;
+    bottom: 105px;
+    z-index: 11;
+}
+.avto_rinok_main{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 80%;
+}
+.avto_rinok_gigi{
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.avto_rinok_text{
+    width: 43vw;
+    height: 555px;
+}
+.avto_rinok_text_inside{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.glav_cont{
+    font-size: 1.25rem;
+    color: #848283;
+}
+.avto_rinok_text h1{
+    font-weight: 700;
+    font-size: 3.125rem;
+    color: #FFFFFF;
+}
+.okolo_zagolovok{
+    color: #FFFFFF;
+    font-size: 2.188rem;
+}
+.ne_zagolovok{
+    font-size: 1.563rem;
+    color: #FFFFFF;
+}
+
+.help_na_etapah{
+    background-image: url(../koreya/koreya_image/image2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 114vh;
+}
+.main_help_na_etapah{
+    margin: 0 auto;
+    width: 80%;
+}
+.phone-input{
+    display: flex;
+    align-items: center;
+    border: 1px solid #C9C9C9;
+    border-radius: 12px;
+    padding: 0 20px;
+    background: #FFFFFF;
+    width: 450px;
+    height: 72px;
+}
+.country-code{
+    color: #64748b;
+    font-weight: 500;
+    margin-right: 8px;
+    user-select: none;
+}
+.phone-input input{
+    border: none;
+    outline: none;
+    padding: 20px 0;
+    font-size: 1rem;
+    width: 100%;
+}
+.icon_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border: 3px solid rgba(250, 0, 44, 0.15);
+    border-radius: 15px;
+}
+.right_help_na_etapah{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-self: center;
+}
+.rhne1{
+    display: flex;
+}
+.rhne11{
+    width: 320px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.rhne1 p{
+    width: 280px;
+    height: 78px;
+    line-height: 26px;
+}
+.button_dashedstrelka{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.button_dashedstrelka img{
+    width: 68px;
+    height: 59px;
+}
+.left_help_na_etapah{
+    width: 550px;
+    height: 525px;
+    background-color: #ffffff;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.left_help_na_etapah h2{
+    width: 449px;
+    height: 138px;
+    font-size: 3.125rem;
+    line-height: 69px;
+    color: #000000;
+    font-weight: 700;
+}
+.left_help_na_etapah p{
+    width: 328px;
+    height: 52px;
+    font-size: 1.125rem;
+    line-height: 26px;
+    font-weight: 600;
+}
+.text_hne{
+    width: 85%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.musor{
+    height: 75vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-evenly;
+}
+.podclass_rhne{
+    align-content: space-between;
+}
+.number_button2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 170px;
+}
+
+.kontakti{
+    height: 80vh;
+    align-content: space-evenly;
+    background-color: #FFFFFF;
+}
+.kontakti h2{
+    font-size: 3.125rem;
+    color: #000000;
+    font-weight: 700;
+}
+.kontakti_main{
+    width: 80%;
+    margin: 0 auto;
+}
+.maps{
+    display: flex;
+    justify-content: space-between;
+}
+.map1{
+    height: 55vh;
+    width: 36vw;
+    border: 7px solid #FECCD5;
+    border-radius: 34px;
+}
+.map1 img{
+    width: 100%;
+    height: 35vh;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.inside_map{
+    height: 100%;
+}
+.gorod_nomer img{
+    width: 16px;
+    height: 22px;
+}
+.map_text{
+    width: 100%;
+    height: 34%;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.bot_kontakti p{
+    width: 250px;
+    font-size: 1.875rem;
+    color: #000000;
+    font-weight: 650;
+}
+.metka{
+    display: flex;
+    width: 350px;
+}
+.filial{
+    font-size: 1.875rem;
+    color: #000000;
+    font-weight: 500;
+}
+.gorod{
+    color: #292929;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.gorod_nomer{
+    width: 65%;
+    height: 50%;
+}
+.map_text1{
+    width: 95%;
+    flex-wrap: wrap;
+}
+
+footer{
+    height: 33vh;
+    background-color: #EEEEEE;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+.footer_main{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_left_main{
+    height: 70%;
+}
+.footer_left_main p{
+    width: 428px;
+    height: 88px;
+}
+.footer_mid_main{
+    justify-content: space-between;
+    display: flex;
+    width: 20vw;
+    height: 50%;
+}
+.footer_midleft{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footer_midright{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footer_right{
+    height: 50%;
+}
+.footer_mid{
+    height: 50%;
+}
+.footer_rightbot{
+    display: flex;
+}
+.footer_rightbot img{
+    width: 16px;
+    height: 22px;
+}
+footer a{
+    color: #000000;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
